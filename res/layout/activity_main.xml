@@ -11,17 +11,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true" >
 
-        <Button
-            android:id="@+id/callbutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="25dp"
-            android:drawableLeft="@android:drawable/ic_menu_call"
-            android:text="@string/callbutton_title"
-            android:textSize="32dp" />
-
         <TextView
             android:id="@+id/infotext"
             android:layout_width="wrap_content"
@@ -46,6 +35,30 @@
 
             <requestFocus />
         </EditText>
+
+        <Button
+            android:id="@+id/callbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableLeft="@android:drawable/sym_action_call"
+            android:text="@string/callbutton_title"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/cancelbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/callbutton"
+            android:layout_alignBottom="@+id/callbutton"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:drawableRight="@android:drawable/sym_call_missed"
+            android:text="@string/cancelbutton_title"
+            android:textSize="28dp" />
 
     </RelativeLayout>
 

@@ -3,6 +3,7 @@
     <string name="app_name">USSD Stop Dialer</string>
     <string name="title_activity_main">USSD Stop Dialer</string>
     <string name="callbutton_title">Call</string>
+    <string name="cancelbutton_title">Cancel</string>
     <string name="callbutton_test">Call</string>
     <string name="infotext">Are you sure you want to call this number?</string>
     <string name="infotext_empty">Prevent your phone from calling malicious phone numbers!\nJust keep this app, select \'USSD Stop\' when an unexpected dialer selection pops up.\nYou can still dial the number with \'Call\' if you know better and checked the number!</string>

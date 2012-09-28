@@ -1,0 +1,718 @@
+_____________________________________________________________________
++ Program class: com/dngames/ussd/stop/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.dngames.ussd.stop.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 127):
+  + Integer [2130903040]
+  + Integer [2130968578]
+  + Integer [2130968580]
+  + Integer [2130968581]
+  + Integer [2130968582]
+  + Integer [2130968584]
+  + Integer [2131099648]
+  + Integer [2131099649]
+  + Integer [2131099650]
+  + Integer [2131099651]
+  + String []
+  + String [#]
+  + String [%23]
+  + String [*]
+  + String [*#06#]
+  + String [android.intent.action.DIAL]
+  + String [tel:]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
+  + Class [android/os/Bundle]
+  + Class [android/widget/Button]
+  + Class [android/widget/EditText]
+  + Class [android/widget/TextView]
+  + Class [android/widget/Toast]
+  + Class [com/dngames/ussd/stop/MainActivity]
+  + Class [com/dngames/ussd/stop/a]
+  + Class [com/dngames/ussd/stop/b]
+  + Class [java/lang/String]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.getData ()Landroid/net/Uri;]
+  + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [android/net/Uri.toString ()Ljava/lang/String;]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/Button.setText (I)V]
+  + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/TextView.setText (I)V]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;II)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [com/dngames/ussd/stop/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/dngames/ussd/stop/MainActivity.getIntent ()Landroid/content/Intent;]
+  + Methodref [com/dngames/ussd/stop/MainActivity.setContentView (I)V]
+  + Methodref [com/dngames/ussd/stop/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [com/dngames/ussd/stop/a.<init> (Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+  + Methodref [com/dngames/ussd/stop/b.<init> (Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+  + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+  + Methodref [java/lang/String.replace (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [contains (Ljava/lang/CharSequence;)Z]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getData ()Landroid/net/Uri;]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [makeText (Landroid/content/Context;II)Landroid/widget/Toast;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [replace (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setText (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [show ()V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [#]
+  + Utf8 [%23]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()Landroid/net/Uri;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;II)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/net/Uri;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)Z]
+  + Utf8 [(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [*]
+  + Utf8 [*#06#]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [MainActivity.java]
+  + Utf8 [SourceFile]
+  + Utf8 [StackMapTable]
+  + Utf8 [android.intent.action.DIAL]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [com/dngames/ussd/stop/MainActivity]
+  + Utf8 [com/dngames/ussd/stop/a]
+  + Utf8 [com/dngames/ussd/stop/b]
+  + Utf8 [contains]
+  + Utf8 [findViewById]
+  + Utf8 [getData]
+  + Utf8 [getIntent]
+  + Utf8 [java/lang/String]
+  + Utf8 [makeText]
+  + Utf8 [onCreate]
+  + Utf8 [parse]
+  + Utf8 [replace]
+  + Utf8 [setContentView]
+  + Utf8 [setData]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setText]
+  + Utf8 [show]
+  + Utf8 [startActivity]
+  + Utf8 [tel:]
+  + Utf8 [toString]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 15
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 231, locals = 6, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #31
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #45
+        + Methodref [com/dngames/ussd/stop/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #8
+        + Integer [2131099649]
+      [14] invokevirtual #43
+        + Methodref [com/dngames/ussd/stop/MainActivity.findViewById (I)Landroid/view/View;]
+      [17] checkcast #23
+        + Class [android/widget/EditText]
+      [20] astore_1 v1
+      [21] aload_0 v0
+      [22] ldc #9
+        + Integer [2131099650]
+      [24] invokevirtual #43
+        + Methodref [com/dngames/ussd/stop/MainActivity.findViewById (I)Landroid/view/View;]
+      [27] checkcast #22
+        + Class [android/widget/Button]
+      [30] astore_2 v2
+      [31] aload_0 v0
+      [32] ldc #10
+        + Integer [2131099651]
+      [34] invokevirtual #43
+        + Methodref [com/dngames/ussd/stop/MainActivity.findViewById (I)Landroid/view/View;]
+      [37] checkcast #22
+        + Class [android/widget/Button]
+      [40] astore_3 v3
+      [41] aload_0 v0
+      [42] invokevirtual #44
+        + Methodref [com/dngames/ussd/stop/MainActivity.getIntent ()Landroid/content/Intent;]
+      [45] ifnull +133 (target=178)
+      [48] aload_0 v0
+      [49] invokevirtual #44
+        + Methodref [com/dngames/ussd/stop/MainActivity.getIntent ()Landroid/content/Intent;]
+      [52] invokevirtual #33
+        + Methodref [android/content/Intent.getData ()Landroid/net/Uri;]
+      [55] ifnull +123 (target=178)
+      [58] aload_0 v0
+      [59] invokevirtual #44
+        + Methodref [com/dngames/ussd/stop/MainActivity.getIntent ()Landroid/content/Intent;]
+      [62] invokevirtual #33
+        + Methodref [android/content/Intent.getData ()Landroid/net/Uri;]
+      [65] invokevirtual #36
+        + Methodref [android/net/Uri.toString ()Ljava/lang/String;]
+      [68] dup
+      [69] astore v4
+      [71] ldc #17
+        + String [tel:]
+      [73] ldc #11
+        + String []
+      [75] invokevirtual #50
+        + Methodref [java/lang/String.replace (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;]
+      [78] dup
+      [79] astore v5
+      [81] ldc #14
+        + String [*]
+      [83] invokevirtual #49
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [86] ifne +23 (target=109)
+      [89] aload v5
+      [91] ldc #13
+        + String [%23]
+      [93] invokevirtual #49
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [96] ifne +13 (target=109)
+      [99] aload v5
+      [101] ldc #12
+        + String [#]
+      [103] invokevirtual #49
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [106] ifeq +32 (target=138)
+      [109] aload_1 v1
+      [110] aload v5
+      [112] invokevirtual #39
+        + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+      [115] aload_0 v0
+      [116] ldc #7
+        + Integer [2131099648]
+      [118] invokevirtual #43
+        + Methodref [com/dngames/ussd/stop/MainActivity.findViewById (I)Landroid/view/View;]
+      [121] checkcast #24
+        + Class [android/widget/TextView]
+      [124] ldc #4
+        + Integer [2130968581]
+      [126] invokevirtual #40
+        + Methodref [android/widget/TextView.setText (I)V]
+      [129] aload_2 v2
+      [130] ldc #2
+        + Integer [2130968578]
+      [132] invokevirtual #38
+        + Methodref [android/widget/Button.setText (I)V]
+      [135] goto +69 (target=204)
+      [138] aload_0 v0
+      [139] ldc #6
+        + Integer [2130968584]
+      [141] iconst_0
+      [142] invokestatic #41
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;II)Landroid/widget/Toast;]
+      [145] invokevirtual #42
+        + Methodref [android/widget/Toast.show ()V]
+      [148] new #19
+        + Class [android/content/Intent]
+      [151] dup
+      [152] ldc #16
+        + String [android.intent.action.DIAL]
+      [154] invokespecial #32
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [157] dup
+      [158] astore v5
+      [160] aload v4
+      [162] invokestatic #35
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [165] invokevirtual #34
+        + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+      [168] pop
+      [169] aload_0 v0
+      [170] aload v5
+      [172] invokevirtual #46
+        + Methodref [com/dngames/ussd/stop/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [175] goto +29 (target=204)
+      [178] aload_1 v1
+      [179] ldc #15
+        + String [*#06#]
+      [181] invokevirtual #39
+        + Methodref [android/widget/EditText.setText (Ljava/lang/CharSequence;)V]
+      [184] aload_0 v0
+      [185] ldc #7
+        + Integer [2131099648]
+      [187] invokevirtual #43
+        + Methodref [com/dngames/ussd/stop/MainActivity.findViewById (I)Landroid/view/View;]
+      [190] checkcast #24
+        + Class [android/widget/TextView]
+      [193] ldc #5
+        + Integer [2130968582]
+      [195] invokevirtual #40
+        + Methodref [android/widget/TextView.setText (I)V]
+      [198] aload_2 v2
+      [199] ldc #3
+        + Integer [2130968580]
+      [201] invokevirtual #38
+        + Methodref [android/widget/Button.setText (I)V]
+      [204] aload_2 v2
+      [205] new #27
+        + Class [com/dngames/ussd/stop/a]
+      [208] dup
+      [209] aload_0 v0
+      [210] aload_1 v1
+      [211] invokespecial #47
+        + Methodref [com/dngames/ussd/stop/a.<init> (Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+      [214] invokevirtual #37
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [217] aload_3 v3
+      [218] new #28
+        + Class [com/dngames/ussd/stop/b]
+      [221] dup
+      [222] aload_0 v0
+      [223] aload_1 v1
+      [224] invokespecial #48
+        + Methodref [com/dngames/ussd/stop/b.<init> (Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+      [227] invokevirtual #37
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [230] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 2):
+      + Line number table attribute (count = 22)
+        [0] -> line 20
+        [5] -> line 21
+        [11] -> line 23
+        [21] -> line 24
+        [31] -> line 25
+        [41] -> line 27
+        [58] -> line 29
+        [69] -> line 30
+        [79] -> line 32
+        [109] -> line 34
+        [115] -> line 35
+        [129] -> line 36
+        [138] -> line 40
+        [148] -> line 42
+        [158] -> line 43
+        [169] -> line 44
+        [178] -> line 49
+        [184] -> line 50
+        [198] -> line 51
+        [204] -> line 54
+        [217] -> line 68
+        [230] -> line 78
+      + Stack map table attribute (count = 5):
+        - [109] Var: [a:com/dngames/ussd/stop/MainActivity][a:android/os/Bundle][a:android/widget/EditText][a:android/widget/Button][a:android/widget/Button][a:java/lang/String][a:java/lang/String], Stack: 
+        - [138] Var: ..., Stack: (empty)
+        - [175] Var: ..., Stack: (empty)
+        - [178] Var: -2, Stack: (empty)
+        - [204] Var: ..., Stack: (empty)
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [MainActivity.java]
+
+_____________________________________________________________________
++ Program class: com/dngames/ussd/stop/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.dngames.ussd.stop.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 88):
+  + String [android.intent.action.DIAL]
+  + String [clipboard]
+  + String [tel:]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
+  + Class [android/text/ClipboardManager]
+  + Class [android/text/Editable]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [com/dngames/ussd/stop/MainActivity]
+  + Class [com/dngames/ussd/stop/a]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/dngames/ussd/stop/a.a Lcom/dngames/ussd/stop/MainActivity;]
+  + Fieldref [com/dngames/ussd/stop/a.b Landroid/widget/EditText;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [android/text/ClipboardManager.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [com/dngames/ussd/stop/MainActivity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + Methodref [com/dngames/ussd/stop/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.trim ()Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Lcom/dngames/ussd/stop/MainActivity;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [trim ()Ljava/lang/String;]
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/net/Uri;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Lcom/dngames/ussd/stop/MainActivity;]
+  + Utf8 [LineNumberTable]
+  + Utf8 [MainActivity.java]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [android.intent.action.DIAL]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/text/ClipboardManager]
+  + Utf8 [android/text/Editable]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [clipboard]
+  + Utf8 [com/dngames/ussd/stop/MainActivity]
+  + Utf8 [com/dngames/ussd/stop/a]
+  + Utf8 [getSystemService]
+  + Utf8 [getText]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [parse]
+  + Utf8 [setData]
+  + Utf8 [setText]
+  + Utf8 [startActivity]
+  + Utf8 [tel:]
+  + Utf8 [toString]
+  + Utf8 [trim]
+
+Fields (count = 2):
+  + Field:        a Lcom/dngames/ussd/stop/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.dngames.ussd.stop.MainActivity a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x1012
+      = private final synthetic android.widget.EditText b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V
+    Access flags: 0x0
+      = a(com.dngames.ussd.stop.MainActivity,android.widget.EditText)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #15
+        + Fieldref [com/dngames/ussd/stop/a.a Lcom/dngames/ussd/stop/MainActivity;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #16
+        + Fieldref [com/dngames/ussd/stop/a.b Landroid/widget/EditText;]
+      [10] aload_0 v0
+      [11] invokespecial #24
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 1
+        [10] -> line 54
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 75, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] ldc #1
+        + String [android.intent.action.DIAL]
+      [6] invokespecial #17
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [9] astore_1 v1
+      [10] aload_0 v0
+      [11] getfield #16
+        + Fieldref [com/dngames/ussd/stop/a.b Landroid/widget/EditText;]
+      [14] invokevirtual #21
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [17] invokeinterface #29
+        + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+      [22] invokevirtual #25
+        + Methodref [java/lang/String.trim ()Ljava/lang/String;]
+      [25] astore_2 v2
+      [26] aload_0 v0
+      [27] getfield #15
+        + Fieldref [com/dngames/ussd/stop/a.a Lcom/dngames/ussd/stop/MainActivity;]
+      [30] ldc #2
+        + String [clipboard]
+      [32] invokevirtual #22
+        + Methodref [com/dngames/ussd/stop/MainActivity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [35] checkcast #6
+        + Class [android/text/ClipboardManager]
+      [38] aload_2 v2
+      [39] invokevirtual #20
+        + Methodref [android/text/ClipboardManager.setText (Ljava/lang/CharSequence;)V]
+      [42] aload_1 v1
+      [43] new #14
+        + Class [java/lang/StringBuilder]
+      [46] dup
+      [47] ldc #3
+        + String [tel:]
+      [49] invokespecial #26
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [52] aload_2 v2
+      [53] invokevirtual #27
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [56] invokevirtual #28
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [59] invokestatic #19
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [62] invokevirtual #18
+        + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+      [65] pop
+      [66] aload_0 v0
+      [67] getfield #15
+        + Fieldref [com/dngames/ussd/stop/a.a Lcom/dngames/ussd/stop/MainActivity;]
+      [70] aload_1 v1
+      [71] invokevirtual #23
+        + Methodref [com/dngames/ussd/stop/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [74] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 7)
+        [0] -> line 58
+        [10] -> line 59
+        [26] -> line 61
+        [38] -> line 62
+        [42] -> line 64
+        [66] -> line 65
+        [74] -> line 66
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [MainActivity.java]
+
+_____________________________________________________________________
++ Program class: com/dngames/ussd/stop/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.dngames.ussd.stop.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 60):
+  + String [clipboard]
+  + Class [android/text/ClipboardManager]
+  + Class [android/text/Editable]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [com/dngames/ussd/stop/MainActivity]
+  + Class [com/dngames/ussd/stop/b]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Fieldref [com/dngames/ussd/stop/b.a Lcom/dngames/ussd/stop/MainActivity;]
+  + Fieldref [com/dngames/ussd/stop/b.b Landroid/widget/EditText;]
+  + Methodref [android/text/ClipboardManager.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [com/dngames/ussd/stop/MainActivity.finish ()V]
+  + Methodref [com/dngames/ussd/stop/MainActivity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.trim ()Ljava/lang/String;]
+  + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/dngames/ussd/stop/MainActivity;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [finish ()V]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [trim ()Ljava/lang/String;]
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Lcom/dngames/ussd/stop/MainActivity;]
+  + Utf8 [LineNumberTable]
+  + Utf8 [MainActivity.java]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [android/text/ClipboardManager]
+  + Utf8 [android/text/Editable]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [b]
+  + Utf8 [clipboard]
+  + Utf8 [com/dngames/ussd/stop/MainActivity]
+  + Utf8 [com/dngames/ussd/stop/b]
+  + Utf8 [finish]
+  + Utf8 [getSystemService]
+  + Utf8 [getText]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+  + Utf8 [toString]
+  + Utf8 [trim]
+
+Fields (count = 2):
+  + Field:        a Lcom/dngames/ussd/stop/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.dngames.ussd.stop.MainActivity a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x1012
+      = private final synthetic android.widget.EditText b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/dngames/ussd/stop/MainActivity;Landroid/widget/EditText;)V
+    Access flags: 0x0
+      = b(com.dngames.ussd.stop.MainActivity,android.widget.EditText)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/dngames/ussd/stop/b.a Lcom/dngames/ussd/stop/MainActivity;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #11
+        + Fieldref [com/dngames/ussd/stop/b.b Landroid/widget/EditText;]
+      [10] aload_0 v0
+      [11] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 1
+        [10] -> line 68
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/dngames/ussd/stop/b.b Landroid/widget/EditText;]
+      [4] invokevirtual #13
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [7] invokeinterface #18
+        + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
+      [12] invokevirtual #17
+        + Methodref [java/lang/String.trim ()Ljava/lang/String;]
+      [15] astore_1 v1
+      [16] aload_0 v0
+      [17] getfield #10
+        + Fieldref [com/dngames/ussd/stop/b.a Lcom/dngames/ussd/stop/MainActivity;]
+      [20] ldc #1
+        + String [clipboard]
+      [22] invokevirtual #15
+        + Methodref [com/dngames/ussd/stop/MainActivity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [25] checkcast #2
+        + Class [android/text/ClipboardManager]
+      [28] aload_1 v1
+      [29] invokevirtual #12
+        + Methodref [android/text/ClipboardManager.setText (Ljava/lang/CharSequence;)V]
+      [32] aload_0 v0
+      [33] getfield #10
+        + Fieldref [com/dngames/ussd/stop/b.a Lcom/dngames/ussd/stop/MainActivity;]
+      [36] invokevirtual #14
+        + Methodref [com/dngames/ussd/stop/MainActivity.finish ()V]
+      [39] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 5)
+        [0] -> line 72
+        [16] -> line 73
+        [28] -> line 74
+        [32] -> line 76
+        [39] -> line 77
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [MainActivity.java]
+

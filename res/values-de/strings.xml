@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">USSD Stop</string>
+    <string name="title_activity_main">USSD Stop/Block</string>
+    <string name="callbutton_title">Wahl</string>
+    <string name="cancelbutton_title">Abbruch</string>
+    <string name="callbutton_test">Wahl</string>
+    <string name="infotext">Diese Nummer wirklich wählen?</string>
+    <string name="infotext_empty">Schützen sie ihr Telefon und ihre SIM vor schädlichen Wahlfunktionen!\nEinfach diese App behalten, \'USSD Stop\' auswählen wenn unerwartet gewählt werden soll.\nSie können dann immer noch die Nummer manuell wählen nachdem sie sie geprüft haben!</string>
+    <string name="example_phone_number">*#06#</string>
+    <string name="noussd">Nummer ist keine USSD -> wählen</string>
+    
+</resources>

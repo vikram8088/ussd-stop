@@ -1,0 +1,10 @@
+com.dngames.ussd.stop.MainActivity -> com.dngames.ussd.stop.MainActivity:
+    20:78:void onCreate(android.os.Bundle) -> onCreate
+com.dngames.ussd.stop.MainActivity$1 -> com.dngames.ussd.stop.a:
+    com.dngames.ussd.stop.MainActivity this$0 -> a
+    android.widget.EditText val$number -> b
+    58:66:void onClick(android.view.View) -> onClick
+com.dngames.ussd.stop.MainActivity$2 -> com.dngames.ussd.stop.b:
+    com.dngames.ussd.stop.MainActivity this$0 -> a
+    android.widget.EditText val$number -> b
+    72:77:void onClick(android.view.View) -> onClick
