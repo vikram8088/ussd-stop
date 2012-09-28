@@ -1,0 +1,2 @@
+com.dngames.ussd.stop.MainActivity
+com.dngames.ussd.stop.MainActivity: MainActivity()

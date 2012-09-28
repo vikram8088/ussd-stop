@@ -22,13 +22,14 @@ public class MainActivity extends Activity {
         
         final EditText number = (EditText)findViewById(R.id.number);
         Button callbutton = (Button)findViewById(R.id.callbutton);
+        Button cancelbutton = (Button)findViewById(R.id.cancelbutton);
         
         if(getIntent() != null && getIntent().getData() != null)
         {
         	String given = getIntent().getData().toString();
         	String ussd = given.replace("tel:", "");
         	
-        	if(ussd.startsWith("*") && ussd.endsWith("#"))
+        	if(ussd.contains("*") || ussd.contains("%23") || ussd.contains("#"))
         	{
 	        	number.setText(ussd);
 	        	((TextView)findViewById(R.id.infotext)).setText(R.string.infotext);
@@ -62,6 +63,17 @@ public class MainActivity extends Activity {
 				
                 intent.setData(Uri.parse("tel:" + callnow));
                 startActivity(intent);
+            }});
+        
+        cancelbutton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v)
+			{
+				String callnow = number.getText().toString().trim();
+				ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+				clipboard.setText(callnow);
+				
+				finish();
             }});
     }
 }

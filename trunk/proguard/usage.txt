@@ -1,0 +1,8 @@
+com.dngames.ussd.stop.BuildConfig
+com.dngames.ussd.stop.R
+com.dngames.ussd.stop.R$attr
+com.dngames.ussd.stop.R$drawable
+com.dngames.ussd.stop.R$id
+com.dngames.ussd.stop.R$layout
+com.dngames.ussd.stop.R$string
+com.dngames.ussd.stop.R$style
